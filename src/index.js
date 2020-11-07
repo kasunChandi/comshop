@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route } from 'react-router-dom';
 import './index.css';
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from './components/Home';
+import Footer from './components/Footer';
 
 
 
 ReactDOM.render(
-  <React.StrictMode>
-   <h1>Heloo </h1>
-  </React.StrictMode>,
+ <BrowserRouter>
+ <Route exact path="/" component={Home}/> 
+ <Footer/>
+ </BrowserRouter>,
   document.getElementById('root')
 );
 
