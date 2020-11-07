@@ -12,8 +12,8 @@ function Footer() {
                 <div className="col-md-3 col-sm-6">
                 <ul className="list-unstyled">
                     <h4>Laptop</h4>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
+                    <li>Business Laptos</li>
+                    <li>Gamming Laptos</li>
                     
                 </ul>
                 </div>
@@ -22,8 +22,8 @@ function Footer() {
                 <div className="col-md-3 col-sm-6">
                 <ul className="list-unstyled">
                     <h4>Desktop</h4>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
+                    <li>Noraml Desktops</li>
+                    <li>Gamming Desktops</li>
                     
                 </ul>
                 </div>
@@ -32,8 +32,8 @@ function Footer() {
                 <div className="col-md-3 col-sm-6">
                 <ul className="list-unstyled">
                     <h4>Accessories</h4>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
+                    <li>Desktop Accessories</li>
+                    <li>Laptop Accessories</li>
                     
                 </ul>
                 </div>
@@ -42,8 +42,8 @@ function Footer() {
                 <div className="col-md-3 col-sm-6">
                 <ul className="list-unstyled">
                     <h4>Contact Us</h4>
-                    <li>Lorem ipsum</li>
-                    <li>Lorem ipsum</li>
+                    <li>011-22334455</li>
+                    <li>011-55669988</li>
                    
                 </ul>
                 </div>
