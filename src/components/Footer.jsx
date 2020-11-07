@@ -51,9 +51,11 @@ function Footer() {
 
             </div>
             {/*Footer Bottom*/}
+            {//kasunChandi...
+            }
             <div className="footer-bottom">
               <p className="text-xs-center">
-                &copy;{new Date().getFullYear()}EliteTech -All Rights Reserved
+                &copy;{new Date().getFullYear()}KasunCahndi -All Rights Reserved
               </p>
             </div>
 
