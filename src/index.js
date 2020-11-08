@@ -6,11 +6,12 @@ import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home';
 import Footer from './components/Footer';
-
+import Navbar from './components/Navbar';
 
 
 ReactDOM.render(
  <BrowserRouter>
+ <Navbar/>
  <Route exact path="/" component={Home}/> 
  <Footer/>
  </BrowserRouter>,
