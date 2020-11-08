@@ -1,17 +1,12 @@
 import React from "react";
-import {
-  Navbar,
-  Nav,
-  Form,
-
-} from "react-bootstrap";
+import { Navbar,Nav,Form } from "react-bootstrap";
 //import { faHome } from "@fortawesome/free-solid-svg-icons";
 //import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
-function App() {
+function NavigationLayout() {
   return (
-    <div className="App">
+    <div className="NavigationLayout">
       <header>
         <Navbar expand="lg" variant="dark" bg="dark">
           <Navbar.Brand href="#home">
@@ -80,4 +75,4 @@ function App() {
     </div>
   );
 }
-export default App;
+export default NavigationLayout;
