@@ -1,13 +1,14 @@
 import React from "react";
 import { Navbar,Nav,Form } from "react-bootstrap";
-//import { faHome } from "@fortawesome/free-solid-svg-icons";
-//import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faHome } from '@fortawesome/free-solid-svg-icons';
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 
 function NavigationLayout() {
   return (
     <div className="NavigationLayout">
       <header>
+        <faHome/>
         <Navbar expand="lg" variant="dark" bg="dark">
           <Navbar.Brand href="#home">
             <Link class="text-light bg-dark" to="/">
