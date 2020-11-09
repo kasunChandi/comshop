@@ -22,6 +22,7 @@ class Desktop extends Component{
                     </p>
                 <div align="right">
                     <button style={{backgroundColor:"white", color:"hotpink", border:"2px solid white", fontSize:"30px"}} onClick={this.props.onLike}>♥</button>{" "}
+                    {this.props.desktops.likeCount}
                 </div>
                 </div>    
             </div>

@@ -25,20 +25,20 @@ class Desktops extends Component {
           </div>
       );
     }
-  /*
-    async likeBook(books){
+  
+    async likeBook(desktops){
       
-      await axios.put(`http://localhost:5000/api/home/${books.id}`, {
-        likeCount: books.likeCount + 1,
+      await axios.put(`http://localhost:5000/api/desktopPC/${desktops.id}`, {
+        likeCount: desktops.likeCount + 1,
       });
   
-      let allBooks = [...this.state.allBooks];
-      let index = allBooks.indexOf(books);
-      allBooks[index] = {...books };
-      allBooks[index].likeCount++;
-      this.setState({allBooks : allBooks});
+      let allDesktops = [...this.state.allDesktops];
+      let index = allDesktops.indexOf(desktops);
+      allDesktops[index] = {...desktops };
+      allDesktops[index].likeCount++;
+      this.setState({allDesktops : allDesktops});
       
-    }*/
+    }
   
     async componentDidMount() {
       const { data } = await axios.get("http://localhost:5000/api/desktopPC");
