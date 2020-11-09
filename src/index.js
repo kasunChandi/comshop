@@ -7,12 +7,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from './components/Home';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-
+import Desktops from './components/Desktops';
+import ViewDetails from './components/viewDetails';
 
 ReactDOM.render(
  <BrowserRouter>
  <Navbar/>
- <Route exact path="/" component={Home}/> 
+ <Route exact path="/" component={Home}/>
+ <Route exact path="/api/desktopPC" component={Desktops}/>
+ <Route exact path ="/viewDetails/:id" component={ViewDetails}/>
  <Footer/>
  </BrowserRouter>,
   document.getElementById('root')

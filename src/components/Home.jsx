@@ -11,19 +11,19 @@ class Home extends Component {
       <div className="container">
       <Carousel> 
       <Carousel.Item style={{'height':"600px"}} >  
-            <img style={{'height':"600px"}} className="d-block w-100" src={'https://i.redd.it/mlkg8iy5xeu21.jpg'}  />  
+            <img style={{'height':"600px"}} className="d-block w-100" src={'https://i.redd.it/mlkg8iy5xeu21.jpg'}  alt="..."/>  
           </Carousel.Item  > 
           <Carousel.Item style={{'height':"600px"}} >  
-            <img style={{'height':"600px"}} className="d-block w-100" src={'https://store.hp.com/app/assets/images/uploads/prod/hp-pavilion-gaming-desktop-review-hero1589983682725190.jpg'}  />  
+            <img style={{'height':"600px"}} className="d-block w-100" src={'https://store.hp.com/app/assets/images/uploads/prod/hp-pavilion-gaming-desktop-review-hero1589983682725190.jpg'} alt="..."  />  
           </Carousel.Item  >
           <Carousel.Item style={{'height':"600px"}} >  
-            <img style={{'height':"600px"}} className="d-block w-100" src={'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2018/12/razer-blade-15-gaming-laptop-setup.png'}  />  
+            <img style={{'height':"600px"}} className="d-block w-100" src={'https://www.samma3a.com/tech/en/wp-content/uploads/sites/2/2018/12/razer-blade-15-gaming-laptop-setup.png'} alt="..." />  
           </Carousel.Item  >
           <Carousel.Item style={{'height':"600px"}} >  
-            <img style={{'height':"600px"}} className="d-block w-100" src={'https://www.digitalstorm.com/img/desktops-2020-05-B.jpg'}  />  
+            <img style={{'height':"600px"}} className="d-block w-100" src={'https://www.digitalstorm.com/img/desktops-2020-05-B.jpg'} alt="..." />  
           </Carousel.Item  >
           <Carousel.Item style={{'height':"600px"}} >  
-            <img style={{'height':"600px"}} className="d-block w-100" src={'https://cdn.mos.cms.futurecdn.net/enZ95BdJbdw5hDeBKcMMFe-768-80.jpg'}  />  
+            <img style={{'height':"600px"}} className="d-block w-100" src={'https://cdn.mos.cms.futurecdn.net/enZ95BdJbdw5hDeBKcMMFe-768-80.jpg'} alt="..." />  
           </Carousel.Item  >
       </Carousel> 
   </div>
