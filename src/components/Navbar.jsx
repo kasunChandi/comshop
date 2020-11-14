@@ -31,7 +31,7 @@ function NavigationLayout() {
 
                 <li className="nav-item active">
                   <a href className="nav-link text-white text-uppercase ml-4">
-                    <Link class="text-light bg-dark" to="/">
+                    <Link class="text-light bg-dark" to="/api/laptopPC">
                       Laptop
                     </Link>
                     <span class="sr-only">(current)</span>
@@ -40,7 +40,7 @@ function NavigationLayout() {
 
                 <li className="nav-item active">
                   <a href className="nav-link text-white text-uppercase ml-4">
-                    <Link class="text-light bg-dark" to="/">
+                    <Link class="text-light bg-dark" to="/api/desktopPC">
                       Desktop
                     </Link>
                     <span class="sr-only">(current)</span>
