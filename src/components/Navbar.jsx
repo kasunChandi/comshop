@@ -3,6 +3,8 @@ import { Navbar,Nav,Form } from "react-bootstrap";
 // import { faHome } from '@fortawesome/free-solid-svg-icons';
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
+import AuthOption from './Authoption';
+
 
 function NavigationLayout() {
   return (
@@ -70,6 +72,7 @@ function NavigationLayout() {
                 </Link>
               </li>
             </Form>
+            <AuthOption/>
           </Navbar.Collapse>
         </Navbar>
       </header>

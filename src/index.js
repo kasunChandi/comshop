@@ -10,6 +10,7 @@ import Navbar from './components/Navbar';
 import Desktops from './components/Desktops';
 import Laptops from './components/Laptops';
 import ViewDetails from './components/viewDetails';
+import Login from './components/Login';
 
 ReactDOM.render(
  <BrowserRouter>
@@ -18,6 +19,8 @@ ReactDOM.render(
  <Route exact path="/api/desktopPC" component={Desktops}/>
  <Route exact path ="/api/laptopPc" component ={Laptops}/>
  <Route exact path ="/viewDetails/:id" component={ViewDetails}/>
+ <Route exact path ="/api/register/login" component= {Login}/>
+ 
  <Footer/>
  </BrowserRouter>,
   document.getElementById('root')
